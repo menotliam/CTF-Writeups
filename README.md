@@ -11,7 +11,7 @@
 ## 📌 Executive Summary
 Welcome to my Cybersecurity Portfolio. This repository serves as a centralized documentation hub for my Capture The Flag (CTF) write-ups, vulnerability research, and security architecture case studies. 
 
-Unlike traditional exploit-focused write-ups, my approach bridges the gap between technical execution and business risk. Every analysis documented here is structured around a **Consultative Methodology**: identifying the vulnerability, demonstrating the exploit, assessing the business impact, and providing actionable remediation strategies.
+Unlike traditional exploit-focused write-ups, my approach bridges the gap between technical execution and business risk. Every analysis documented here is structured around a **Consultative Methodology**: identifying the vulnerability, demonstrating the exploit, assessing the business impact, pointing out the root causes and providing actionable remediation strategies.
 
 ---
 
@@ -30,9 +30,9 @@ This repository is categorically structured to reflect different domains of Info
 ```text
 📦 Security-Research-Portfolio
  ┣ 📂 Web-Application-Security    # Web vulnerabilities (OWASP Top 10)
- ┣ 📂 Network-Forensics           # Traffic analysis (PCAP), network pivoting
- ┣ 📂 Cryptography                # Encryption flaws, hashing, and blockchain concepts
- ┣ 📂 Reverse-Engineering-Pwn     # Binary exploitation and memory corruption
+ ┣ 📂 Network-Forensics           # Traffic analysis (PCAP), network pivoting (processing)
+ ┣ 📂 Cryptography                # Encryption flaws, hashing, and blockchain concepts (processing)
+ ┣ 📂 Reverse-Engineering-Pwn     # Binary exploitation and memory corruption (processing)
  ┗ 📜 README.md
 ```
 ## 🔍 Featured Research & Write-ups
@@ -41,9 +41,9 @@ This repository is categorically structured to reflect different domains of Info
 
 | Domain | Challenge / System | Vulnerability Focus | Business Risk Level | Link |
 | :--- | :--- | :--- | :---: | :--- |
-| Web Security | HTB: Bank | Broken Authentication | High | [Read Report](./Web-Application-Security/HTB-Bank) |
-| Web Security | TryHackMe: XSS | Stored XSS | Medium | [Read Report](./Web-Application-Security/THM-XSS) |
-| Network | pcap Analysis | Cleartext Credential Sniffing | Critical | [Read Report](./Network-Forensics/Pcap-Analysis) |
+| Web Exploitation | Crack The Gate 1 | Authentication Bypass | Low | [Read Report](./web-exploitation/Crack_The_Gate_1.pdf) |
+| Web Exploitation | NO FA | Weak 2FA & Sensitive Data Exposure | High | [Read Report](./web-exploitation/NO_FA.pdf) |
+| Web Exploitation | Secret Box | Error-Based SQL Injection | Critical | [Read Report](./web-exploitation/Secret_Box.pdf) |
 
 *(Note: The table above will be updated as new research is published.)*
 
@@ -54,7 +54,8 @@ Every write-up in this repository strictly adheres to the following structure to
 1. **Executive Summary:** A high-level overview of the flaw and its potential impact on business operations.
 2. **Reconnaissance:** The process of gathering intelligence and mapping the attack surface.
 3. **Attack Vector (Exploitation):** Step-by-step technical demonstration of the vulnerability (Proof of Concept).
-4. **Remediation & Best Practices:** Strategic recommendations for mitigation, focusing on both immediate patches and long-term architectural improvements.
+4. **Root Cause Analysis:** List all possible reasons can result to the vulnerabilites.
+5. **Remediation & Best Practices:** Strategic recommendations for mitigation, focusing on both immediate patches and long-term architectural improvements.
 
 ## ⚠️ Disclaimer
 **Strictly for Educational Purposes**: All information, techniques, and tools documented in this repository are intended solely for **educational purposes**, authorized security research, and academic learning. I **do not** promote, encourage, or support any illegal activities or unauthorized access to computer systems.
