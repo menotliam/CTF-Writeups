@@ -39,11 +39,11 @@ This repository is categorically structured to reflect different domains of Info
 
 *(A quick look at my most comprehensive analyses - Click to read full reports)*
 
-| Domain | Challenge / System | Vulnerability Focus | Business Risk Level | Link |
+| Domain | Challenge | Vulnerability Focus | Business Risk Level | Link |
 | :--- | :--- | :--- | :---: | :--- |
-| Web Exploitation | Crack The Gate 1 | Authentication Bypass | Low | [Read Report](./web-exploitation/Crack_The_Gate_1.pdf) |
-| Web Exploitation | NO FA | Weak 2FA & Sensitive Data Exposure | High | [Read Report](./web-exploitation/NO_FA.pdf) |
-| Web Exploitation | Secret Box | Error-Based SQL Injection | Critical | [Read Report](./web-exploitation/Secret_Box.pdf) |
+| Web Exploitation | Crack The Gate 1 | Authentication Bypass | Low | [Read Report](./web-exploitation/Crack_The_Gate_1/Crack_The_Gate_1.pdf) |
+| Web Exploitation | NO FA | Weak 2FA & Sensitive Data Exposure | High | [Read Report](./web-exploitation/NO_FA/NO_FA.pdf) |
+| Web Exploitation | Secret Box | Error-Based SQL Injection | Critical | [Read Report](./web-exploitation/Secret_Box/Secret_Box.pdf) |
 
 *(Note: The table above will be updated as new research is published.)*
 
