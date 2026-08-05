@@ -44,6 +44,7 @@ This repository is categorically structured to reflect different domains of Info
 | Web Exploitation | byp4ss3d | Arbitrary File Upload | High | [Read Report](./web-exploitation/byp4ss3d/byp4ss3d.pdf) |
 | Web Exploitation | Trickster | Insecure File Upload | High | [Read Report](./web-exploitation/Trickster/Trickster.pdf) |
 | Web Exploitation | NO FA | Weak 2FA & Sensitive Data Exposure | High | [Read Report](./web-exploitation/NO_FA/NO_FA.pdf) |
+| Web Exploitation | Java Code Analysis !?! | Weak JWT & IDOR | Critical | [Read Report](./web-exploitation/Java_Code_Analysis/Java_Code_Analysis.pdf)
 | Web Exploitation | Secret Box | Error-Based SQL Injection | Critical | [Read Report](./web-exploitation/Secret_Box/Secret_Box.pdf) |
 
 *(Note: The table above will be updated as new research is published.)*
